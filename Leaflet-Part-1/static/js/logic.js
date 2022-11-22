@@ -20,7 +20,7 @@ function popUp(data, layer) {
   layer.bindPopup(`<h4>${place}</h4><hr>Depth: ${depth}<hr>Magnitude: ${mag}`);  
 };
 
-//Find a color for the marker based on depth of earthquake, if it is higher than 90 it is black
+//Find a color for the marker based on depth of earthquake
 function depthColor(depth) {
   if (depth < 10) {
       color = '#60B6F1';

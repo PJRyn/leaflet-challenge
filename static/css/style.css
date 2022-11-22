@@ -8,3 +8,27 @@ body,
 html {
   height: 100%;
 }
+
+.legend {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.625);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+i {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right:1px;
+}
+
+h4 {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}

@@ -1,1 +1,2 @@
 # leaflet-challenge
+This is my work for Monash University's data science bootcamp. Contained is an html file that when run displays a world map and circles showing where earthquakes within the last week had occurred. This is done using d3.json to load in a geoJSON of global earthquakes from (this source) [https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson] as well as leaflet to build the map and place the data.
